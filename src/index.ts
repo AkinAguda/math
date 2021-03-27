@@ -2,10 +2,10 @@ import { euler } from "./module";
 
 console.log(
   euler({
-    dyDx: (x, y) => x + 2 * y,
-    xInitial: 0,
-    yInitial: 0,
+    dyDx: (x, y) => x + 2 * y!,
+    xInitial: 2,
+    yInitial: 3,
     step: 0.1,
-    limit: 0.4,
+    limit: 2.5,
   })
 );
